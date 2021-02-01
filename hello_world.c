@@ -2,6 +2,6 @@
 #include<stdio.h>
 main()
 {
-printf("My name is Mugdha KG");
-return(0);
+    printf("My name is Mugdha KG");
+    return(0);
 }
