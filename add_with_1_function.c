@@ -3,9 +3,9 @@
 int main() 
 {
    float a, b, sum;
-   printf("Enter two no.s a and b = ");
+   printf("Enter two numbers a and b = ");
    scanf("%f %f", &a, &b);
    sum = a + b;
-   printf("Sum of a + b = %f", sum);
+   printf("Sum of %f + %f = %f", a,b,sum);
    return(0);
 }
