@@ -6,5 +6,5 @@ int main()
     printf("Enter the height, depth and breadth of a tromboloid = ");
     scanf("%f%f%f",&h,&d,&b);
     volume = ((h*d*b)+(d/b))/3;
-    printf("The volume of the tromboloid is = %lf", volume);
+    printf("The volume of the tromboloid is = %f", volume);
 }
