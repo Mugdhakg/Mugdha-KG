@@ -2,17 +2,18 @@
 #include<stdio.h>
 int main ()
 {
-float n, i, sum;
-printf("Enter the number of numbers = ");
-scanf("%10.2f",&n);
-
-printf("Enter %10.2f numbers = ",n);
-
-for(i=1; i<=n; i++)
-{
-scanf("%10.2f", &i);
-sum = sum++
-}
-printf("Sum of the entered %10.2f numbers = %10.2f", n,sum);
-return 0;
+    float n, i, sum, value;
+    printf("Enter the number of numbers = ");
+    scanf("%f",&n);
+    
+    printf("Enter %0.2f numbers = \n",n);
+    
+    for(i=1; i<=n; i++)
+    {
+        scanf("%f", &value);
+        sum = sum+value;
+        
+    }
+    printf("Sum of the entered %f numbers = %10.2f", n,sum);
+    return 0;
 }
