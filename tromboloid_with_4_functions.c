@@ -16,7 +16,7 @@ return volume;
 
 float output(float v, float h, float b, float d)
 {
-printf("The volume of the tromboloid of height = %10.2f, deapth = %10.2f, breadth = %10.2f is = %10.2f", h, d, b, v);
+printf("The volume of the tromboloid of height = %10.2f, deapth = %10.2f and breadth = %10.2f = %10.2f", h, d, b, v);
 }
 
 int main()
@@ -27,5 +27,5 @@ d = input(d);
 b = input(b);
 v = volume(h,d,b);
 output(v,h,d,b);
-return0;
+return 0;
 }
