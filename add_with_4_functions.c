@@ -3,8 +3,8 @@
 float input()
 {
     float n;
-	printf("Enter number=");
-	scanf("%f",&n);
+            printf("Enter number=");
+	scanf("%f"&n);
 	return n;
 }
 float sum(float a,float b)
@@ -20,9 +20,9 @@ void output(float n)
  int main()
 {
  float x,y,z;
- x=input();
- y=input();
- z=sum(x,y);
+ input();
+ input();
+ sum(x,y);
  output(z);
  return 0;
 }
