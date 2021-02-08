@@ -3,26 +3,29 @@
 float input()
 {
     float n;
-            printf("Enter number=");
+    printf("Enter number=");
 	scanf("%f",&n);
 	return n;
 }
+
 float sum(float a,float b)
 {
-	     float sum;
-		 sum=a+b;
-		 return sum;
+    float sum;
+    sum=a+b;
+    return sum;
 }
-void output(float n)
+
+void output(float a, float b, float n)
 {
-  printf("The sum is %f",n);
+    printf("The sum of %10.2f and %10.2f is = %10.2f",a,b,n);
 }
- int main()
+
+int main()
 {
- float x,y,z;
- x=input();
- y=input();
- z=sum(x,y);
- output(z);
- return 0;
+    float x,y,z;
+    x=input();
+    y=input();
+    z=sum(x,y);
+    output(x,y,z);
+    return 0;
 }
