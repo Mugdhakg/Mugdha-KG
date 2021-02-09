@@ -1,32 +1,30 @@
 //WAP to find the distance between two point using 4 functions.
-#include <stdio.h>
-
+#include<stdio.h>
+#include<math.h>
 float input()
 {
-    float n;
-    printf("Enter point = ");
-    scanf("%f",&n);
-    return n;
+float x1, x2, y1, y2;
+printf("Enter point 1 (x1, y1) = ");  
+scanf("%f%f", &x1, &y1);  
+printf("Enter point 2 (x2, y2) = ");  
+scanf("%f%f", &x2, &y2);  
 }
 
-float distance(float a, float b)
+float distance ()
 {
-    float dis;
-    dis = a-b;
-    return dis;
+float dis,x1,x2,y1,y2;
+dis = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
 }
 
-void output(float a, float b, float dis)
+void output (float dis)
 {
-    printf("The distance between a = %10.2f and b = %10.2f = %10.2f", a,b,dis);
+printf("The distance between (x1,y1) and (x2,y2) = %0.2f", dis);
 }
 
 int main()
 {
-    float a,b,dis;
-    a=input();
-    b=input();
-    dis=distance(a,b);
-    output(a,b,dis);
-    return 0;
+float dis,a,b,distance;
+a = input();
+distance = dis;
+output(distance);
 }
