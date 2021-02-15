@@ -26,6 +26,6 @@ h = input('h');
 d = input('d');
 b = input('b');
 v = volume(h,d,b);
-output(v,h,d,b);
+output(v,h,b,d);
 return 0;
 }
