@@ -17,7 +17,7 @@ float sum(float a,float b)
 
 void output(float a, float b, float n)
 {
-    printf("The sum of %10.2f and %10.2f is = %10.2f",a,b,n);
+    printf("The sum of %0.2f and %0.2f is = %0.2f",a,b,n);
 }
 
 int main()
