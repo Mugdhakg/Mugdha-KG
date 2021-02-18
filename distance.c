@@ -9,10 +9,11 @@ scanf("%f",&n);
 return n;
 }
 
-float distance ()
+float distance (float x1,float y1, float x2, float y2)
 {
-float dis,x1,x2,y1,y2;
-dis = sqrt((x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1));
+float dis;
+dis = sqrt((x2 - x1)*(x2 - x1)) + ((y2 - y1)*(y2 - y1));
+return dis;
 }
 
 void output (float dis)
@@ -27,6 +28,6 @@ a = input('x');
 b = input('y');
 c = input('x');
 d = input('y');
-dis = distance();
+dis = distance(a,b,c,d);
 output(dis);
 }
