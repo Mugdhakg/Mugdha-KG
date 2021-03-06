@@ -1,6 +1,6 @@
 //WAP to find the sum of two fractions.
 #include<stdio.h>
-#include<conio,h>
+#include<conio.h>
 typedef struct 
 {
 	int num;
